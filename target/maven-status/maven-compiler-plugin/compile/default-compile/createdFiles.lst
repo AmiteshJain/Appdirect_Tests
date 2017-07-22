@@ -1,0 +1,10 @@
+com\appdirect\pages\LaunchPage.class
+com\appdirect\util\Xls_Reader.class
+com\appdirect\pages\HomePage.class
+com\appdirect\pages\LandingPage.class
+com\appdirect\pages\LoginPage.class
+com\appdirect\util\AppConstants.class
+com\appdirect\base\BasePage.class
+com\appdirect\util\ExtentManager.class
+com\appdirect\util\DataUtil.class
+com\appdirect\pages\SignupPage.class

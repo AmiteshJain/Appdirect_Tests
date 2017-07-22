@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AppDirect_SmokeTests]" parallel="tests">
+  <test name="SignUp Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.appdirect.testcases.SignUpTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0 1 2 3 4"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.appdirect.testcases.SignUpTest -->
+    </classes>
+  </test> <!-- SignUp Test(failed) -->
+</suite> <!-- Failed suite [AppDirect_SmokeTests] -->

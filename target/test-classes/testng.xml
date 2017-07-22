@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppDirect_SmokeTests" parallel="tests">
+	<test name="SignUp Test">
+		<classes>
+			<class name="com.appdirect.testcases.SignUpTest" />
+		</classes>
+	</test>
+
+</suite>
+

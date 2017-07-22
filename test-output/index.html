@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AppDirect_SmokeTests">
+              <span class="suite-name border-failed">AppDirect_SmokeTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AppDirect_SmokeTests">
+                    <span>D:\seleniumProjects\Appdirect_Tests\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AppDirect_SmokeTests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AppDirect_SmokeTests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AppDirect_SmokeTests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AppDirect_SmokeTests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AppDirect_SmokeTests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AppDirect_SmokeTests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 1 failed,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AppDirect_SmokeTests" class="hide-methods failed suite-AppDirect_SmokeTests"> (hide)</a> <!-- hide-methods failed suite-AppDirect_SmokeTests -->
+                      <a href="#" panel-name="suite-AppDirect_SmokeTests" class="show-methods failed suite-AppDirect_SmokeTests"> (show)</a> <!-- show-methods failed suite-AppDirect_SmokeTests -->
+                    </span>
+                    <div class="method-list-content failed suite-AppDirect_SmokeTests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppDirect_SmokeTests" title="com.appdirect.testcases.SignUpTest" hash-for-method="doLogin({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https...)">doLogin({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AppDirect_SmokeTests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AppDirect_SmokeTests" class="hide-methods skipped suite-AppDirect_SmokeTests"> (hide)</a> <!-- hide-methods skipped suite-AppDirect_SmokeTests -->
+                      <a href="#" panel-name="suite-AppDirect_SmokeTests" class="show-methods skipped suite-AppDirect_SmokeTests"> (show)</a> <!-- show-methods skipped suite-AppDirect_SmokeTests -->
+                    </span>
+                    <div class="method-list-content skipped suite-AppDirect_SmokeTests">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppDirect_SmokeTests" title="com.appdirect.testcases.SignUpTest" hash-for-method="doLogin({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, B...)">doLogin({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, B...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppDirect_SmokeTests" title="com.appdirect.testcases.SignUpTest" hash-for-method="doLogin({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect...)">doLogin({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppDirect_SmokeTests" title="com.appdirect.testcases.SignUpTest" hash-for-method="doLogin({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com,...)">doLogin({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppDirect_SmokeTests" title="com.appdirect.testcases.SignUpTest" hash-for-method="doLogin({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.app...)">doLogin({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.app...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AppDirect_SmokeTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AppDirect_SmokeTests" class="panel AppDirect_SmokeTests">
+          <div class="suite-AppDirect_SmokeTests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.appdirect.testcases.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https...)">
+                  </a> <!-- doLogin({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https://www.appdirect.com/, Browser=Chrome})</span>
+                  <div class="stack-trace">java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at org.apache.http.conn.ssl.AbstractVerifier.&lt;init&gt;(AbstractVerifier.java:82)
+	at org.apache.http.conn.ssl.AllowAllHostnameVerifier.&lt;init&gt;(AllowAllHostnameVerifier.java:40)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.&lt;clinit&gt;(SSLConnectionSocketFactory.java:124)
+	at org.openqa.selenium.remote.internal.HttpClientFactory.getClientConnectionManager(HttpClientFactory.java:71)
+	at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:57)
+	at org.openqa.selenium.remote.internal.HttpClientFactory.&lt;init&gt;(HttpClientFactory.java:60)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.getDefaultHttpClientFactory(ApacheHttpClient.java:252)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient$Factory.&lt;init&gt;(ApacheHttpClient.java:229)
+	at org.openqa.selenium.remote.HttpCommandExecutor.getDefaultClientFactory(HttpCommandExecutor.java:96)
+	at org.openqa.selenium.remote.HttpCommandExecutor.&lt;init&gt;(HttpCommandExecutor.java:70)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.&lt;init&gt;(DriverCommandExecutor.java:62)
+	at org.openqa.selenium.chrome.ChromeDriverCommandExecutor.&lt;init&gt;(ChromeDriverCommandExecutor.java:40)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at com.appdirect.testcases.base.BaseTest.init(BaseTest.java:37)
+	at com.appdirect.testcases.SignUpTest.doLogin(SignUpTest.java:34)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 37 more
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppDirect_SmokeTests-class-failed -->
+          <div class="suite-AppDirect_SmokeTests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.appdirect.testcases.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, B...)">
+                  </a> <!-- doLogin({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, B...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as Runmode is No
+	at com.appdirect.testcases.SignUpTest.doLogin(SignUpTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect...)">
+                  </a> <!-- doLogin({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect.com/, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as Runmode is No
+	at com.appdirect.testcases.SignUpTest.doLogin(SignUpTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com,...)">
+                  </a> <!-- doLogin({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com,...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com, Url=https://www.appdirect.com/, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as Runmode is No
+	at com.appdirect.testcases.SignUpTest.doLogin(SignUpTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.app...)">
+                  </a> <!-- doLogin({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.app...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.appdirect.com/, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as Runmode is No
+	at com.appdirect.testcases.SignUpTest.doLogin(SignUpTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppDirect_SmokeTests-class-skipped -->
+        </div> <!-- panel AppDirect_SmokeTests -->
+        <div panel-name="test-xml-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\seleniumProjects\Appdirect_Tests\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AppDirect_SmokeTests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;SignUp Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.appdirect.testcases.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp Test --&gt;
+&lt;/suite&gt; &lt;!-- AppDirect_SmokeTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AppDirect_SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUp Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AppDirect_SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AppDirect_SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AppDirect_SmokeTests');
+function tableData_AppDirect_SmokeTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doLogin')
+data.setCell(0, 2, 'com.appdirect.testcases.SignUpTest')
+data.setCell(0, 3, 449);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doLogin')
+data.setCell(1, 2, 'com.appdirect.testcases.SignUpTest')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doLogin')
+data.setCell(2, 2, 'com.appdirect.testcases.SignUpTest')
+data.setCell(2, 3, 3);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'com.appdirect.testcases.SignUpTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLogin')
+data.setCell(4, 2, 'com.appdirect.testcases.SignUpTest')
+data.setCell(4, 3, 2);
+window.suiteTableData['AppDirect_SmokeTests']= { tableData: data, tableDiv: 'times-div-AppDirect_SmokeTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 461 ms</span>
+              <div id="times-div-AppDirect_SmokeTests">
+              </div> <!-- times-div-AppDirect_SmokeTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AppDirect_SmokeTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AppDirect_SmokeTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.appdirect.testcases.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doLogin({Case=with new email, ExpectedResult=Success, Runmode=Y, Email=newuseremail1010@gmail.com, Url=https...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Case=with already registered Email, ExpectedResult=Success, Runmode=N, Email=amiteshjain@gmail.com,...)</span>
+                <span class="method-start">887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">892 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Case=with invalid Email, ExpectedResult=Success, Runmode=N, Email=invalidemail, Url=https://www.app...)</span>
+                <span class="method-start">1022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Case=with blank Email, ExpectedResult=Success, Runmode=N, Email=, Url=https://www.appdirect.com/, B...)</span>
+                <span class="method-start">1111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Case=skip Test, ExpectedResult=Success, Runmode=N, Email=valid@gmail.com, Url=https://www.appdirect...)</span>
+                <span class="method-start">1193 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">1198 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
