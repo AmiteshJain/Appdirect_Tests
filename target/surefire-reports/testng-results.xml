@@ -2,12 +2,12 @@
 <testng-results skipped="4" failed="1" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="AppDirect_SmokeTests" duration-ms="14768" started-at="2017-07-21T10:20:56Z" finished-at="2017-07-21T10:21:11Z">
+  <suite name="AppDirect_SmokeTests" duration-ms="16203" started-at="2017-07-25T05:01:51Z" finished-at="2017-07-25T05:02:08Z">
     <groups>
     </groups>
-    <test name="SignUp Test" duration-ms="14768" started-at="2017-07-21T10:20:56Z" finished-at="2017-07-21T10:21:11Z">
+    <test name="SignUp Test" duration-ms="16203" started-at="2017-07-25T05:01:51Z" finished-at="2017-07-25T05:02:08Z">
       <class name="com.appdirect.testcases.SignUpTest">
-        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="13155" started-at="2017-07-21T15:50:56Z" data-provider="getData" finished-at="2017-07-21T15:51:09Z">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="14252" started-at="2017-07-25T10:31:51Z" data-provider="getData" finished-at="2017-07-25T10:32:06Z">
           <params>
             <param index="0">
               <value>
@@ -21,24 +21,24 @@
 from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.07 seconds
+Command duration or timeout: 10.17 seconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\TEMP\scoped_dir4160_28441}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 661fe3822b57672fdcf9df341fb6d7d1]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\TEMP\scoped_dir3084_20845}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e7318567cc6eca578db2785ef519243b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
 from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.07 seconds
+Command duration or timeout: 10.17 seconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\TEMP\scoped_dir4160_28441}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 661fe3822b57672fdcf9df341fb6d7d1
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Windows\TEMP\scoped_dir3084_20845}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e7318567cc6eca578db2785ef519243b
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -76,11 +76,11 @@ Session ID: 661fe3822b57672fdcf9df341fb6d7d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="1251" started-at="2017-07-21T15:51:09Z" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="1542" started-at="2017-07-25T10:32:06Z" finished-at="2017-07-25T10:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="2" started-at="2017-07-21T15:51:11Z" data-provider="getData" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="1" started-at="2017-07-25T10:32:07Z" data-provider="getData" finished-at="2017-07-25T10:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -121,11 +121,11 @@ Session ID: 661fe3822b57672fdcf9df341fb6d7d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="102" started-at="2017-07-21T15:51:11Z" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="70" started-at="2017-07-25T10:32:07Z" finished-at="2017-07-25T10:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="1" started-at="2017-07-21T15:51:11Z" data-provider="getData" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="1" started-at="2017-07-25T10:32:07Z" data-provider="getData" finished-at="2017-07-25T10:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -166,11 +166,11 @@ Session ID: 661fe3822b57672fdcf9df341fb6d7d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="70" started-at="2017-07-21T15:51:11Z" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="105" started-at="2017-07-25T10:32:07Z" finished-at="2017-07-25T10:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="1" started-at="2017-07-21T15:51:11Z" data-provider="getData" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="0" started-at="2017-07-25T10:32:07Z" data-provider="getData" finished-at="2017-07-25T10:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -211,11 +211,11 @@ Session ID: 661fe3822b57672fdcf9df341fb6d7d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="70" started-at="2017-07-21T15:51:11Z" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="108" started-at="2017-07-25T10:32:07Z" finished-at="2017-07-25T10:32:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="1" started-at="2017-07-21T15:51:11Z" data-provider="getData" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="SKIP" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="doLogin" duration-ms="2" started-at="2017-07-25T10:32:08Z" data-provider="getData" finished-at="2017-07-25T10:32:08Z">
           <params>
             <param index="0">
               <value>
@@ -256,7 +256,7 @@ Session ID: 661fe3822b57672fdcf9df341fb6d7d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="61" started-at="2017-07-21T15:51:11Z" finished-at="2017-07-21T15:51:11Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.appdirect.testcases.SignUpTest@5fa07e12]" name="quit" is-config="true" duration-ms="66" started-at="2017-07-25T10:32:08Z" finished-at="2017-07-25T10:32:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
